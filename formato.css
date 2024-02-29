@@ -1,13 +1,32 @@
+@font-face {
+    font-family: "Chomsky";
+    src: url("Chomsky-8MOa2.otf");
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
     text-align: center;
 }
+
+:root {
+    --text: #e4f8e2;
+--background: #0718056f;
+--primary: #9be58d;
+--secondary: #1e3183;
+--accent: #7e3fd3;
+
+    
+
+}
 html{
-    background-color: rgb(229, 255, 229);
+    background-image: linear-gradient(90deg, #003300, #7e3fd3 );
+    font-family: "Libre Franklin";
 }
 a{ 
     font-family:Arial, Helvetica, sans-serif ;
+    color: var(--secondary);
     font-size: 14px;
 }
 
@@ -16,7 +35,7 @@ table{
     width: 1000px;
     height: 860px;
     text-align: center;
-    background-color: rgb(237, 225, 100);
+    background-color: var(--background);
 }
 
 thead tr,tfoot tr{
@@ -24,11 +43,11 @@ thead tr,tfoot tr{
 }
 
 thead tr td, tfoot tr td{
-    border: solid #001eff 04px;
+   background:#9ce58d;
 }
 
 thead{
-    background: rgb(237, 225, 100) ;
+    background: #9ce58da8 ;
 }
 thead tr td ul{
     text-align: right;
@@ -36,6 +55,21 @@ thead tr td ul{
     padding-top: 40px;
 }
 
+thead tr td ul h1{
+    font-family:"Chomsky" ;
+    font-size: 90px;
+    color: var(--text);
+    background-color: red ;
+    background-image: linear-gradient(90deg,#003300 ,var(--accent) 90%);
+    background-size: 100%;
+    background-repeat:repeat ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-stroke: 0px #00aaaa76
+
+}
 thead tr td ul li{
     display: inline;
     margin-right: 20px;
@@ -46,19 +80,19 @@ tr td ul li a{
 }
 
 tr td ul li a:hover{
-    color: #000000;
+    color: var(--text);
     text-decoration: underline;
 }
 
 tbody tr td{
-    border-left: solid #0000ff 0px;
+    border-left: solid var(--text) 0px;
     vertical-align: top;
 }
 
 tbody tr td h4{
     width: 100%;
-    background-color: rgb(0, 0, 255);
-    color: #fff;
+    background-color: var(--primary);
+    color: var(--secondary);
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -76,18 +110,25 @@ tbody tr td ul li{
 }
 
 tbody tr td h2, tbody tr td a p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:"Libre Franklin" ;
     text-align: left;
 }
 
 tbody tr td h2{
-    color: #0000ff;
+   background-color: red ;
+   background-image: linear-gradient(45deg,var(--primary) ,var(--accent));
+   background-size: 100%;
+   background-repeat:repeat ;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-background-clip: text;
+   -moz-text-fill-color: transparent;
     font-size: 30px;
     padding-left: 15px;
 }
 
 tbody tr td a{
-    color: #000;
+    color: var(--text);
     text-decoration: none;
 }
 
@@ -114,7 +155,7 @@ tbody tr td a p img{
 
 tbody tr td#parceiros{
     width: 150px;
-    border-right: solid #0000ff 0px;
+    border-right: solid var(--accent) 0px;
 }
 
 tbody tr td.menu{
