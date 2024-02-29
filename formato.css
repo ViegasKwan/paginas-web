@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+a{ 
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 14px;
+}
+
+table{
+    margin: 0 auto;
+    width: 1000px;
+    height: 860px;
+    text-align: center;
+}
+
+thead tr,tfoot tr{
+    height: 70px;
+}
+
+thead tr td, tfoot tr td{
+    border: solid #001eff 4px;
+}
+
+thead{
+    background: #0af ;
+}
+thead tr td ul{
+    text-align: right;
+    list-style-type: none;
+    padding-top: 40px;
+}
+
+thead tr td ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+tr td ul li a{
+    text-decoration: none;
+}
+
+tr td ul li a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+tbody tr td{
+    border-left: solid #c0c0c0 2px;
+    vertical-align: top;
+}
+
+tbody tr td h4{
+    width: 100%;
+    background-color: darkgray;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+tbody tr td ul{
+    padding-left: 10px;
+    padding-top: 7px;
+    list-style-type: none;
+}
+
+tbody tr td ul li{
+    padding-left: 10px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+tbody tr td h2, tbody tr td a p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+tbody tr td h2{
+    color: #0000ff;
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+tbody tr td a{
+    color: #000;
+    text-decoration: none;
+}
+
+tbody tr td a:hover{
+    color: #c0c0c0;
+    text-decoration: underline;
+
+}
+
+tbody tr td a p{
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+tbody tr td a p img{
+    width: 170px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+tbody tr td#parceiros{
+    width: 150px;
+    border-right: solid #c0c0c0 1px;
+}
+
+tbody tr td.menu{
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
