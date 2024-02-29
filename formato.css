@@ -3,6 +3,9 @@
     padding: 0px;
     text-align: center;
 }
+html{
+    background-color: rgb(229, 255, 229);
+}
 a{ 
     font-family:Arial, Helvetica, sans-serif ;
     font-size: 14px;
@@ -13,6 +16,7 @@ table{
     width: 1000px;
     height: 860px;
     text-align: center;
+    background-color: rgb(237, 225, 100);
 }
 
 thead tr,tfoot tr{
@@ -20,11 +24,11 @@ thead tr,tfoot tr{
 }
 
 thead tr td, tfoot tr td{
-    border: solid #001eff 4px;
+    border: solid #001eff 04px;
 }
 
 thead{
-    background: #0af ;
+    background: rgb(237, 225, 100) ;
 }
 thead tr td ul{
     text-align: right;
@@ -47,13 +51,13 @@ tr td ul li a:hover{
 }
 
 tbody tr td{
-    border-left: solid #c0c0c0 2px;
+    border-left: solid #0000ff 0px;
     vertical-align: top;
 }
 
 tbody tr td h4{
     width: 100%;
-    background-color: darkgray;
+    background-color: rgb(0, 0, 255);
     color: #fff;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -88,7 +92,7 @@ tbody tr td a{
 }
 
 tbody tr td a:hover{
-    color: #c0c0c0;
+    color: #F0F0Af;
     text-decoration: underline;
 
 }
@@ -110,7 +114,7 @@ tbody tr td a p img{
 
 tbody tr td#parceiros{
     width: 150px;
-    border-right: solid #c0c0c0 1px;
+    border-right: solid #0000ff 0px;
 }
 
 tbody tr td.menu{
